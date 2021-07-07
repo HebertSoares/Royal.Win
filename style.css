@@ -1,11 +1,56 @@
-/***********************
-style nav-main*/
 html, body, #home{
     overflow-x: hidden;
     width: 100%;
     background-color: #131313;
     color: white;
 }
+/**********************
+style nav-login*/
+
+input{
+    color: #fff;
+    line-height: 23px;
+    font-size: 12px;
+    font: 13.33px arial;    
+    margin-top: 1px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align-last: center;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+}
+#login{
+    background: rgb(12, 12, 12);
+}
+.input-group{
+    text-align: center;
+    position: relative;    
+    height: 35px;
+    
+}
+.loginItems{
+    display: inline-block;
+    vertical-align: top;
+}
+.account{
+    
+    margin-left: 10px;
+    margin-bottom: 0;
+    margin-right: 10px;
+    background: url(img/icon01.c64e2c0cf4a8.gif) 8px no-repeat;
+}
+.pwd{
+    background: url(img/icon02.89d7922098bc.gif)8px no-repeat;
+}
+
+/***********************
+style nav-main*/
+
 .navbar-nav .nav-link {
     color: white;
 }
@@ -35,6 +80,9 @@ nav-secundary*/
     }
     #logo{
         width: 200px;
+    }
+    input{
+        font-size: 10px;
     }
  }
 
