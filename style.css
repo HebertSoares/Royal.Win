@@ -1,9 +1,10 @@
 /***********************
-style nav*/
+style nav-main*/
 html, body, #home{
     overflow-x: hidden;
     width: 100%;
     background-color: #131313;
+    color: white;
 }
 .navbar-nav .nav-link {
     color: white;
@@ -22,7 +23,11 @@ html, body, #home{
 .moneyCount{
     text-align: center;
 }
-
+/****************
+nav-secundary*/
+.navbar-nav {
+    margin: auto;
+}
 /* Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) { 
     .icon{
